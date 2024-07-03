@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using ByteBankIO.Modelos;
 
 partial class Program
 {
@@ -28,5 +29,6 @@ partial class Program
         var texto = utf8.GetString(buffer, 0, bytesLidos);
         Console.Write(texto);
     }
-}
+    
 
+}

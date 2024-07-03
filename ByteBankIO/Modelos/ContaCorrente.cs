@@ -11,7 +11,7 @@ public class ContaCorrente
     public int Numero { get; }
     public int Agencia { get; }
     public double Saldo { get; set; }
-    public Cliente Cliente { get; set; }
+    public Cliente Titular { get; set; }
 
     public void Depositar(double valor)
     {
@@ -37,4 +37,5 @@ public class ContaCorrente
 
         Saldo -= valor; 
     }
+
 }
